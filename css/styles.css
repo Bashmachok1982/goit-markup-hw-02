@@ -44,8 +44,7 @@ body {
   color: #404bbf;
   text-decoration: underline;
 }
-.contact-link,
-.contact-link phone {
+.contact-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
@@ -53,11 +52,12 @@ body {
   color: #434455;
 }
 .contact-link:hover,
-.contact-link:focus .contact-link phone:hover,
-.contact-link phone:focus {
+.contact-link:focus {
   color: #404bbf;
 }
-
+.address {
+  font-style: normal;
+}
 .dark-bg {
   background: #2e2f42;
 }
@@ -71,6 +71,10 @@ body {
 .hero-btn {
   background: #4d5ae5;
   color: #fff;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -111,6 +115,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
+  text-align: center;
 }
 .team-card {
   background: #fff;
@@ -145,6 +150,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
+  text-align: center;
 }
 .portfolio-row {
   background: #fff;
@@ -156,7 +162,7 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-*/ .card-title {
+.card-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
